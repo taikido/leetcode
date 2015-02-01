@@ -4,6 +4,7 @@
 * Description: Leetcode Problem 1: Two Sum
 * Source: https://oj.leetcode.com/problems/two-sum/
 * Date: Jan.2015
+* Status: Accepted
 *==========================================================================="""
 
 class Solution:
