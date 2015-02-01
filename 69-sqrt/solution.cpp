@@ -1,3 +1,12 @@
+/*============================================================================
+* Name : solution.cpp
+* Author: taikido
+* Description: Leetcode Problem 69: Sqrt
+* Source: https://oj.leetcode.com/problems/sqrtx/
+* Date: Jan.2015
+* Status: Accepted
+*===========================================================================*/
+
 class Solution {
 public:
     int sqrt(int x) {
