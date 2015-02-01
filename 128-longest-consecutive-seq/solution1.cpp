@@ -1,5 +1,5 @@
 /*============================================================================
-* Name : solution.cpp
+* Name : solution1.cpp
 * Author: taikido
 * Description: Longest Consecutive Sequence
 * Source: hhttps://oj.leetcode.com/problems/longest-consecutive-sequence/
