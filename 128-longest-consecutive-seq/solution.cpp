@@ -2,7 +2,7 @@
 * Name : solution.cpp
 * Author: taikido
 * Description: Longest Consecutive Sequence
-* Source: hhttps://oj.leetcode.com/problems/longest-consecutive-sequence/
+* Source: https://oj.leetcode.com/problems/longest-consecutive-sequence/
 * Date: Sun.Feb.1.2015
 * Status: Accepted
 *===========================================================================*/
