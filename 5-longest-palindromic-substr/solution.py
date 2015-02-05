@@ -4,15 +4,18 @@
 * Description: Leetcode Problem 5: Longest Palindromic Substring
 * Source: https://oj.leetcode.com/problems/longest-palindromic-substring/
 * Date: Jan.2015
-* Status: Time Limit Exceeded
+* Status: Time Limit Exceeded,
+* Updates: Updated to return longest word and not just word
 *==========================================================================="""
 
 class Solution:
 
     def isPalindrome(self, s):
         n = len(s)
+
         if n <= 2:
             return True
+
         mid = int(n/2)
         isEven = (n % 2 == 0)
 
@@ -32,8 +35,16 @@ class Solution:
     # @return a string
     def longestPalindrome(self, s):
         n = len(s)
+
+        if n == 0:
+            return ""
+
+        if n <= 2:
+            return s
         p = n
         found = 0
+
+        longest = s[0]
 
         while not found:
             # print "p: ", p
@@ -44,6 +55,12 @@ class Solution:
                 # print "test: ", word
                 if self.isPalindrome(word):
                     found = 1
-                    return word
+
+                    if len(word) > len(longest):
+                        longest = word;
+
             p -= 1
 
+            if p == 0:
+                found = 1
+        return longest
